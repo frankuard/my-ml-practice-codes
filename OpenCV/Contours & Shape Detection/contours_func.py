@@ -41,7 +41,7 @@ for contour in contours:
     cv2.putText(image, shape_name, (x,y), cv2.FONT_HERSHEY_COMPLEX, 0.6, (0,0,255), 2)
     
     
-    
+
 cv2.imshow("Contours", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
